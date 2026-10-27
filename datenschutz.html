@@ -16,6 +16,7 @@ a:focus-visible{outline:3px solid var(--amber);outline-offset:2px}
 header{background:var(--hero);color:var(--hero-ink)}
 .bar{max-width:46rem;margin:0 auto;padding:14px 18px;display:flex;flex-wrap:wrap;gap:6px 20px;align-items:baseline}
 .brand{font-weight:800;font-size:1.15rem;color:var(--amber);text-decoration:none;margin-right:auto}
+nav{display:flex;flex-wrap:wrap;gap:4px 18px}
 nav a{color:var(--hero-ink);text-decoration:none;padding:4px 0;border-bottom:2px solid transparent}
 nav a:hover,nav a[aria-current]{border-bottom-color:var(--amber)}
 main{max-width:46rem;margin:0 auto;padding:28px 18px 40px}
@@ -44,7 +45,7 @@ footer a{color:var(--mute)}
 </header>
 <main id="inhalt">
 <h1>Datenschutzerklärung</h1>
-<p>Stand: <mark>[Datum der Veröffentlichung]</mark> · Version: <mark>[1.0]</mark></p>
+<p>Stand: <mark>[Datum der Veröffentlichung]</mark> · Version: 1.0</p>
 <p>Diese Erklärung gilt für die App „Rauhwaren – Krampus &amp; Perchten Markt“.</p>
 <h2>1. Verantwortlicher</h2>
 <p>Albin Stadler, Eschenstraße 3, 4611 Buchkirchen, Österreich · E-Mail: <a href="mailto:rauhwaren@gmx.at">rauhwaren@gmx.at</a></p>
@@ -59,10 +60,10 @@ footer a{color:var(--mute)}
 <p><strong>g) Meldungen.</strong> Wenn du eine Anzeige oder Nachricht meldest, speichern wir deine Kennung, den gemeldeten Inhalt, den Grund, den Zeitpunkt und den Bearbeitungsstand. Zweck: Prüfung rechtswidriger oder regelwidriger Inhalte. Rechtsgrundlage: Art. 6 Abs. 1 lit. f und lit. c DSGVO. Wir geben deine Identität nicht an den gemeldeten Nutzer weiter, soweit das rechtlich möglich ist.</p>
 <p><strong>h) Technische Daten.</strong> Beim Zugriff auf die Server fallen kurzzeitig technische Daten an, etwa IP-Adresse, Zeitpunkt und Gerätetyp. Zweck: Sicherheit und Fehlersuche. Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO. <mark>[Falls die App Schriften von Google lädt: Dabei wird deine IP-Adresse an Google übertragen. Besser: Schriften einbetten und diesen Satz streichen.]</mark></p>
 <p><strong>i) Kontakt per E-Mail.</strong> Wenn du uns schreibst, verarbeiten wir deine Nachricht und Absenderadresse zur Bearbeitung. Rechtsgrundlage: Art. 6 Abs. 1 lit. b oder lit. f DSGVO.</p>
-<p>Die App verwendet keine Werbe- und keine Tracking-Dienste. <mark>[Bei Einführung von Werbung oder Absturzberichten vorher ergänzen.]</mark></p>
+<p>Die App verwendet keine Werbe- und keine Tracking-Dienste.</p>
 <h2>3. Empfänger und Auftragsverarbeiter</h2>
 <ul>
-<li><strong>Supabase</strong> (Hosting, Datenbank, Anmeldung, Dateispeicher und Server-Funktionen). Server-Region: <mark>[ergänzen, z. B. EU]</mark>. Auftragsverarbeitungsvereinbarung: <mark>[abgeschlossen/zu prüfen]</mark>.</li>
+<li><strong>Supabase</strong> (Hosting, Datenbank, Anmeldung, Dateispeicher und Server-Funktionen). Server-Region: EU (Irland). Auftragsverarbeitungsvereinbarung: <mark>[bestätigen]</mark>.</li>
 <li><strong>Apple</strong> für die Zustellung von Mitteilungen (Apple Push Notification Service) und für den Vertrieb der App im App Store. Apple verarbeitet Daten in eigener Verantwortung nach seinen Bedingungen.</li>
 <li><strong>E-Mail-Versand</strong> der Bestätigungs- und Passwort-Mails: <mark>[Anbieter ergänzen]</mark>.</li>
 <li>Behörden und Gerichte, wenn wir gesetzlich dazu verpflichtet sind.</li>
@@ -73,12 +74,12 @@ footer a{color:var(--mute)}
 <h2>5. Speicherdauer</h2>
 <ul>
 <li><strong>Konto und Profil:</strong> bis du das Konto löschst.</li>
-<li><strong>Anzeigen:</strong> Eine Anzeige ist 30 Tage sichtbar. Danach ist sie nicht mehr öffentlich. <mark>[Aktuell bleibt sie in deinem Konto, bis du sie oder dein Konto löschst. Empfehlung: automatische Löschung nach einer festen Frist einbauen und hier nennen.]</mark></li>
+<li><strong>Anzeigen:</strong> Eine Anzeige ist 30 Tage sichtbar. Danach ist sie nicht mehr öffentlich und bleibt in deinem Konto, bis du sie oder dein Konto löschst.</li>
 <li><strong>Nachrichten:</strong> bis eine Beteiligte oder ein Beteiligter sein Konto löscht oder die zugehörige Anzeige gelöscht wird. Dann wird die Unterhaltung für beide Seiten gelöscht.</li>
 <li><strong>Fotos:</strong> solange die Anzeige besteht. Beim Löschen von Anzeige oder Konto werden die Dateien entfernt. <mark>[Vor Veröffentlichung in der App sicherstellen.]</mark></li>
 <li><strong>Suchaufträge:</strong> bis du sie oder dein Konto löschst.</li>
 <li><strong>Gerätetoken:</strong> bis zum Abmelden oder Löschen des Kontos.</li>
-<li><strong>Meldungen:</strong> <mark>[Frist festlegen, z. B. 12 Monate nach Abschluss]</mark>.</li>
+<li><strong>Meldungen:</strong> 12 Monate nach Abschluss der Bearbeitung.</li>
 <li><strong>Technische Protokolle:</strong> <mark>[Dauer laut Einstellung bei Supabase ergänzen]</mark>.</li>
 <li><strong>E-Mails an uns:</strong> bis zum Abschluss der Anfrage und, soweit nötig, bis Ablauf gesetzlicher Fristen.</li>
 </ul>
